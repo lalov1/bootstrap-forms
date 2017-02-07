@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Colorado State University-Pueblo Forms</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-fixed-top">
+      <div class="container">
+          <img src="img/csupueblo-logo.png" class="logo" alt="Colorado State University-Pueblo Logo">
+        </div>
+    </nav>  
+
+    <div class="container form-content">
+      <div class="well col-md-8 col-md-offset-2">
+        <div class="page-header">
+            <h1 class="text-center">This is the form title</h1>
+            <p>This is information that talks about the form. This is information that talks about the form. This is information that talks about the form.</p>
+        </div>            
+          <div class="row form-group">
+            <div class="col-md-6 col-md-offset-3">              
+                <form action="">
+                  <div class="form-group">
+                    <label for="FirstName">First Name:</label>
+                    <input type="text" class="form-control" name="FirstName">
+                  </div>
+                  <div class="form-group">
+                    <label for="LastName">Last Name:</label>
+                    <input type="text" class="form-control" name="LastName">
+                  </div>
+                  <div class="form-group">
+                    <label for="Email">Email address:</label>
+                    <input type="text" name="Email" class="form-control" placeholder="jane.doe@csupueblo.edu" />
+                  </div>
+                  <h1>Section Title</h1>
+                  <div class="form-group">
+                    <label for="PhoneNumber">Phone Number:</label>
+                    <input type="text" name="PhoneNumber" class="form-control" placeholder="719-549-5555" />
+                  </div>
+                  <div class="form-group">
+                    <label for="InterestLevel">Interest Level in CSU-Pueblo:</label>
+                    <select type="text" name="InterestLevel" class="form-control">
+                      <option value="">Select</option>
+                      <option value="">Top Choice</option>
+                      <option value="">Definitely Considering</option>
+                      <option value="Possible Choice">Possible Choice</option>
+                    </select>
+                  </div>
+                  <label for="Attended">Have you attended CSU-Pueblo before?</label>
+                  <div class="radio">
+                    <label class="radio-inline"><input type="radio" name="Attended" />Yes</label>
+                    <label class="radio-inline"><input type="radio" name="Attended" />No</label>
+                    </div>
+                  <div class="form-group">
+                    <label for="Comments">Comments:</label>
+                    <textarea name="Comments" id="Comments" cols="30" rows="10" class="form-control"></textarea>
+                  </div>
+                  <input type="submit" class="btn" />
+                </form>
+                
+            </div>
+        </div>
+
+      </div>
+    </div>
+  <footer></footer>
+</body>
+</html>
