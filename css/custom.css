@@ -78,8 +78,5 @@ nav .container{
 
 .well{
   background-color: #f4f4f4;
-  border: 0;
-  /*
-  border: 1px solid #58595b;
-  */
+  border: 1px solid #f4f4f4;
 }
