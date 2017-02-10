@@ -36,11 +36,11 @@ footer{
 .form-content{
   margin-top: 110px;
 }
-
+/*
 .form-control{
   border: 0px;
 }
-
+*/
 .form-group{
   color: #58595b;
 }
@@ -75,8 +75,9 @@ nav .container{
   margin:auto;
   text-align: center;
 }
-
+/*
 .well{
   background-color: #f4f4f4;
   border: 1px solid #f4f4f4;
 }
+*/
