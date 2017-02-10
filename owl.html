@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OWL (Online Writing Lab) | Submit Assignment | Colorado State University-Pueblo</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script
+  src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script language="javascript" type="text/javascript" src="../../scripts/forms.js"></script>
+    <script language="javascript" type="text/javascript" src="../../scripts/regex.js"></script>     
+	 
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    
+</head>
+<body id="Html" runat="server">
+
+    <nav class="navbar navbar-fixed-top">
+      <div class="container">
+          <img src="img/csupueblo-logo.png" class="logo" alt="Colorado State University-Pueblo Logo">
+        </div>
+    </nav>  
+
+    <div class="container form-content">
+      <div class="well col-md-8 col-md-offset-2">
+        <div class="page-header">
+            <h1 class="text-center">Submit Writing or Questions</h1>
+            <p>Feel free to contact <a href="mailto:owlcoordinator@csupueblo.edu">owlcoordinator@csupueblo.edu</a> if you have general writing questions that don’t require review of any documents.</p>
+			<p><strong>Welcome to the CSU-Pueblo Online Writing Lab (OWL) submission corner!</strong></p>
+			
+			<p>The OWL is a service of the CSU-Pueblo Writing Room, located in LARC 251. Our OWL writing consultants can provide you with feedback on any kind of writing that you are doing or questions you have about writing. The CSU-Pueblo OWL is open to both the public and CSU-Pueblo students. You do not need to be a CSU-Pueblo student to receive online feedback. Anybody can submit! </p>
+
+			<p>OWL guidelines:</p>
+			<ol type="1">
+				<li>It can take up to two business days to receive your online session via e-mail, so please submit well in advance of deadlines.</li>
+				<li>Papers submitted after 5pm, on weekends, or when the university is closed will be reviewed the next available weekday.</li>
+				<li><span style="color: #ad132a">Remember</span>, we do not write papers, we do not proofread for the purpose of correcting all errors (we leave that to the writer), and we do not discuss a paper's potential grade. Instead, your tutor will help you build upon your writing and revision skills for current and future writing! </li>
+				<li>Sending complete and accurate information is <span style="color: #ad132a; font-weight:bold;">required</span> when using the Online Writing Lab. Writing might not be returned if necessary and accurate information is not provided.</li>
+				<li>If you have any questions about the OWL service or did not receive a response after two business days (not including days the university is closed), please contact us. We are here to help!</li>
+			</ol>			
+			<h2>Tell us about you!</h2>
+        </div>            
+          <div class="row form-group">
+            <div class="col-md-6 col-md-offset-3">              
+                <form name="fMain" runat="server">
+                  <div class="form-group">
+                    <label for="FirstName">First Name:</label>
+                    <input type="text" class="form-control" name="FirstName">
+                  </div>
+                  <div class="form-group">
+                    <label for="LastName">Last Name:</label>
+                    <input type="text" class="form-control" name="LastName">
+                  </div>
+                  <div class="form-group">
+                    <label for="Email">Email address:</label>
+                    <input type="text" name="Email" class="form-control" placeholder="jane.doe@csupueblo.edu" />
+                  </div>
+                  <div class="form-group">
+                    <label for="PhoneNumber">Phone Number:</label>
+                    <input type="text" name="PhoneNumber" class="form-control" placeholder="719-549-5555" />
+                  </div>
+                  <div class="form-group">
+                    <label for="InterestLevel">Interest Level in CSU-Pueblo:</label>
+                    <select type="text" name="InterestLevel" class="form-control">
+                      <option value="">Select</option>
+                      <option value="">Top Choice</option>
+                      <option value="">Definitely Considering</option>
+                      <option value="Possible Choice">Possible Choice</option>
+                    </select>
+                  </div>
+                  <label for="Attended">Have you attended CSU-Pueblo before?</label>
+                  <div class="radio">
+                    <label class="radio-inline"><input type="radio" name="Attended" />Yes</label>
+                    <label class="radio-inline"><input type="radio" name="Attended" />No</label>
+                    </div>
+                  <div class="form-group">
+                    <label for="Comments">Comments:</label>
+                    <textarea name="Comments" id="Comments" cols="30" rows="10" class="form-control"></textarea>
+                  </div>
+                  <input type="submit" class="btn" />
+                </form>
+                
+            </div>
+        </div>
+
+      </div>
+    </div>
+  <footer></footer>
+  <!-- insert google analytics -->
+  <script>
+      (function (i, s, o, g, r, a, m) {
+          i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+              (i[r].q = i[r].q || []).push(arguments)
+          }, i[r].l = 1 * new Date(); a = s.createElement(o),
+          m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+      ga('create', 'UA-3724306-1', 'auto');
+      ga('send', 'pageview');
+
+  </script>
+  <!-- end google analytics -->  
+</body>
+</html>
